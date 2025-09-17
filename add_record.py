@@ -12,32 +12,13 @@ from bq_database import (
 
 # --- STATIC LISTS FOR DROPDOWNS ---
 ITEM_NAMES = [
-    "",'12"x9"W.B', '14"x11"W.B', "14''X14'' W.B", '14X14 MOON CORNER', '16"x16"W.B', '16X9 HAZEL',
-    '18"X12" COLOR MIX', '18"X12" SQUARE', '18"x12"W.B', '18"X13" W.B', '18"X14" W.B.', "18''I.W.C.",
-    "18''X13'' RANI W.B", "18''X13'' W.B SQUARE", "18''X14'' POLO SET", "18''X14'' RIYO WASH BASIN",
-    '18X12 VITROSA', '18X14 MINI POLO', '18X14 SETU', '18X14 SWIFT', '18X14 VITROSA SET',
-    '20 OP SPECIAL COLOUR MIX', '20" OP.', '20"x16"W.B', "20''X16'' POLO W.B", "20''X17'' POLO SET",
-    '21 OP', '22"X16" REPOSE SET', '22"x16"W.B', '23" OP.', "23'' I.W.C.", 'ANGLO P', 'ANGLO S',
-    'AQUA SET', 'BABY PAN', 'BIG STERLING  SET', 'BOX', 'C T PAN', 'CHENNEL', 'CISTERN LLC',
-    'CORNER URINAL', 'COUNTER BASIN', 'CROWNY WASH BASIN', 'DELTA SET', 'DELTA WASH', 'DOLPHIN SET',
-    'E.W.C - S', "E.W.C S' CONCEALED ROUND REGULAR", 'E.W.C.- P', 'ESTERN', 'EWC SQUARE CONSEALED', "Flour Mount",
-    'FLORA PED', 'FLUSH TANK', 'FOOT REST', 'GENTS URINAL', 'HALF STALL', 'ITALIAN SET', 'JET SPRAY',
-    'kacha big ptrap', 'kacha gents urinal', 'kacha ladies urinal', 'KACHA MAL PURCHASE',
-    'kacha pedestal', 'KACHA STARGOLD PEDESTAL', 'L.L.C TANK', 'LADIES URINAL', 'LEO SET', 'M D PAN',
-    'MINI STALL URINAL', 'NANO URINAL', 'ONE PIECE', 'ONE PIECE BASIN', 'ONE PIECE PTRAP',
-    'ONE PIECE ROUND', 'ONE PIECE ROUND PTRAP', 'ONE PIECE SQUARE', 'ONE PIECE SQUARE PTRAP',
-    'ONE PIECE STRAP', 'P TRAP S', 'PARTITION PLATE', 'PEDESTAL', 'PEDESTAL POLO', 'PEDESTAL S',
-    'POLO PLAIN SET', 'POLO VITROSA', 'PRINCE WB', 'PTRAP BIG', 'PTRAP SMALL', 'RULARPAN',
-    'RULARPAN SET WITH FOOTREST', 'RULARPAN WITH PTRAP', 'SEAT COVER', 'SEMI SET WASH',
-    'SINK 18x12x6', 'SINK 24x18x10', 'SOAP DISH', 'SOPHIA SET', 'SQUATTING', 'STAR GOLD WASH',
-    'STARGOLD PEDESTAL', 'STARGOLD SET', 'STRAPING PATI', 'SUPREME SET', 'TABLE TOP', 'VITROSA SET',
-    'WALL FLUSH TANK', 'WALL HUNG', 'WALL URINAL', '21 AQUA PAN'
+    " ",# Add the Items for easy selection using drop downs
 ]
 
-COLORS = ["", "Ivory", "Blue", "Green", "Brown", "Black", "White", "Pink", "Cofee Brown", "Aqua Green", "Blue Green", "Alpine blue", "Magenta", "Walker Yellow", "Red Brown", "Mint Green", "Black Rustick", "Magenta Rustick", "Red Brown Rustick", "Double Colour", "Mat Gray", "Cofee Brown Rustick", "Wooden"]
-PACKING_OPTIONS = ["Box", "Paper", "Grass", "Open", "--- Enter Other ---"]
-PRODUCT_GRADES = ["Common", "Premium", "Reject", "SUTY", "Bhangar", "--- Enter Other ---"]
-TRANSACTION_TYPES = ["", "Production", "Purchase", "Sales", "Breakage"]
+COLORS = ["", # Add the Items for easy selection using drop downs ]
+PACKING_OPTIONS = ["", # Add the Items for easy selection using drop downs]
+PRODUCT_GRADES = ["", # Add the Items for easy selection using drop downs]
+TRANSACTION_TYPES = ["",# Add the Items for easy selection using drop downs]
 
 # Helper function to create a combobox-like widget
 def combobox(label, options, key, help_text=""):
