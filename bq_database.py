@@ -6,7 +6,7 @@ import bcrypt
 import uuid
 
 # Set up BigQuery client and table info
-BIGQUERY_PROJECT = os.getenv('BIGQUERY_PROJECT', 'anthos-config')
+BIGQUERY_PROJECT = os.getenv('BIGQUERY_PROJECT', 'Project_name')
 BIGQUERY_DATASET = os.getenv('BIGQUERY_DATASET', 'inventory_dataset')
 STOCK_TABLE = os.getenv('STOCK_TABLE', 'product_stock')
 TRANSACTION_TABLE = os.getenv('TRANSACTION_TABLE', 'inventory_transactions')
